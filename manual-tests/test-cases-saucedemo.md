@@ -41,7 +41,7 @@ Em ambiente limpo (aba anônima), o fluxo ocorreu normalmente.
 O sistema deve impedir o login e exibir mensagem informando ao usuário que as credenciais são inválidas.
 
 ### Resultado Obtido:  
-Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."
+Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."  
 Usuário permaneceu na tela de login.
 
 ### Status:  
