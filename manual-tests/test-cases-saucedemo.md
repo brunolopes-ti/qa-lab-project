@@ -49,4 +49,4 @@ Aprovado
 
 ### Observação: 
 
-A palavra "correspondem" em **Resultado Obtido** foi alterada automaticamente pelo sistema para "exigem".
+A palavra **"correspondem"** no **Resultado Obtido** foi alterada automaticamente pelo sistema para **"exigem"**, resultando em uma frase gramaticalmente estranha. Apesar dessa alteração, a funcionalidade do sistema foi atendida corretamente.
