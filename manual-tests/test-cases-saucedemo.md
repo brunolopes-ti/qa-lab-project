@@ -1,8 +1,13 @@
 ## CT-01 - Login com credenciais válidas
 
-**ID:** CT-01
-**Descrição:** Validar compotarmento do sistema os inserir credenciais corretas.
+**ID:** CT-01  
+**Descrição:** Validar compotarmento do sistema os inserir credenciais corretas.  
 **Pré-condição:** Usuário na página de login.
+
+### Passos:  
+1. Inserir usuário válido.  
+2. Inserir senha válida.  
+3. Clicar em Login.
 
 ### Resultado Esperado:
 O sistema deve permitir o login e seguir para a página seguinte.
@@ -23,9 +28,14 @@ Em ambiente limpo (aba anônima), o fluxo ocorreu normalmente.
 
 ## CT-02 - Login com credenciais inválidas
 
-**ID:** CT-02
-**Descrição:** Validar comportamento do sistema ao inserir senha incorreta.
+**ID:** CT-02  
+**Descrição:** Validar comportamento do sistema ao inserir senha incorreta.  
 **Pré-condição:** Usuário na página de login.
+
+## Passos :  
+1. Inserir login inválido.  
+2. Inserir senha inválida.  
+3. Clicar em Login.
 
 ### Resultado Esperado:
 O sistema deve impedir o login e exibir mensagem informando ao usuário que as credenciais são inválidas.
