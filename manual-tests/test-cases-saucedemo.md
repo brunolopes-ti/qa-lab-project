@@ -46,3 +46,7 @@ Usuário permaneceu na tela de login.
 
 ### Status:  
 Aprovado
+
+### Observação: 
+
+A palavra "correspondem" foi alterada automaticamente pelo sistema para "exigem".
