@@ -9,16 +9,16 @@
 2. Inserir senha válida.  
 3. Clicar em Login.
 
-### Resultado Esperado:
+### Resultado Esperado:  
 O sistema deve permitir o login e seguir para a página seguinte.
 
-### Resultado Obtido:
+### Resultado Obtido:  
 Usuário redirecionado para a página de produtos.
 
-### Status:
+### Status:  
 Aprovado
 
-### Observação de Ambiente
+### Observação de Ambiente:  
 
 Em ambiente corporativo com extensões habilitadas, o sistema apresentou erro de renderização na etapa de checkout.  
 Em ambiente limpo (aba anônima), o fluxo ocorreu normalmente.  
@@ -32,17 +32,17 @@ Em ambiente limpo (aba anônima), o fluxo ocorreu normalmente.
 **Descrição:** Validar comportamento do sistema ao inserir senha incorreta.  
 **Pré-condição:** Usuário na página de login.
 
-### Passos :  
+### Passos:  
 1. Inserir login inválido.  
 2. Inserir senha inválida.  
 3. Clicar em Login.
 
-### Resultado Esperado:
+### Resultado Esperado:  
 O sistema deve impedir o login e exibir mensagem informando ao usuário que as credenciais são inválidas.
 
-### Resultado Obtido:
+### Resultado Obtido:  
 Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."
 Usuário permaneceu na tela de login.
 
-### Status:
+### Status:  
 Aprovado
