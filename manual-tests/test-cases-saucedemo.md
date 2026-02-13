@@ -33,7 +33,7 @@ Em ambiente limpo (aba anônima), o fluxo ocorreu normalmente.
 **Pré-condição:** Usuário na página de login.
 
 ### Passos:  
-1. Inserir login inválido.  
+1. Inserir usuário inválido.  
 2. Inserir senha inválida.  
 3. Clicar em Login.
 
