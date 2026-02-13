@@ -44,5 +44,9 @@ O sistema deve impedir o login e exibir mensagem informando ao usuário que as c
 Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."  
 Usuário permaneceu na tela de login.
 
+### Resultado Obtido:
+Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."
+Usuário permaneceu na tela de login.
+
 ### Status:  
 Aprovado
