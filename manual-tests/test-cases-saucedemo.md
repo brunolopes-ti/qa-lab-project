@@ -1,7 +1,7 @@
 ## CT-01 - Login com credenciais válidas
 
 **ID:** CT-01  
-**Descrição:** Validar compotarmento do sistema os inserir credenciais corretas.  
+**Descrição:** Validar compotarmento do sistema ao inserir credenciais corretas.  
 **Pré-condição:** Usuário na página de login.
 
 ### Passos:  
