@@ -1,6 +1,6 @@
-# QA Lab – Testes Manuais em Aplicação Web (SauceDemo)
+## QA Lab – Testes Manuais em Aplicação Web (SauceDemo)
 
-##  Objetivo
+###  Objetivo
 
 Este projeto tem como objetivo aplicar e demonstrar conhecimentos em testes manuais de software, utilizando uma aplicação web de e-commerce como estudo de caso.
 
@@ -10,7 +10,7 @@ O projeto simula um cenário real de validação funcional, com documentação e
 
 ---
 
-##  Escopo dos Testes
+###  Escopo dos Testes
 
 Os testes contemplam:
 
@@ -25,7 +25,7 @@ Os testes contemplam:
 
 ---
 
-##  Ambiente de Teste
+###  Ambiente de Teste
 
 - Sistema Operacional: Windows
 - Navegador: Google Chrome (modo anônimo)
@@ -36,20 +36,19 @@ Os testes contemplam:
 
 ---
 
-##  Estrutura do Projeto  
+###  Estrutura do Projeto  
 
 qa-lab-project/  
-│
+│  
 ├── README.md  
 └── manual-tests/  
-├── README.md  
 └── test-cases-saucedemo.md  
 
 ---
 
-##  Resumo de Execução
+###  Resumo de Execução
 
-| ID     | Cenário                             | Status   |
+|   ID   |               Cenário                |  Status  |
 |--------|--------------------------------------|----------|
 | CT-01  | Login válido                         | Aprovado |
 | CT-02  | Senha inválida                       | Aprovado |
@@ -67,17 +66,17 @@ qa-lab-project/
 
 ---
 
-##  Metodologia Utilizada
+###  Metodologia Utilizada
 
-- Elaboração de casos de teste estruturados com ID único
-- Separação clara entre Resultado Esperado e Resultado Obtido
-- Execução controlada em ambiente limpo (modo anônimo)
-- Registro literal das mensagens retornadas pelo sistema
-- Organização dos cenários por fluxo funcional
+- Elaboração de casos de teste estruturados com ID único.
+- Separação clara entre Resultado Esperado e Resultado Obtido.
+- Execução controlada em ambiente limpo (modo anônimo).
+- Registro literal das mensagens retornadas pelo sistema.
+- Organização dos cenários por fluxo funcional.
 
 ---
 
-##  Próximos Passos
+###  Próximos Passos
 
 - Elaboração de Plano de Teste formal
 - Ampliação da cobertura para novos cenários
