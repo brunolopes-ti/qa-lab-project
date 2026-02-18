@@ -263,3 +263,37 @@ Mensagem exibida: "Error: Postal Code is required"
 ### Status:
 Aprovado
 
+
+## CT-12 – Validação da página Checkout: Overview
+
+**ID:** CT-12  
+**Descrição:** Validar se as informações exibidas na página de resumo da compra estão corretas.  
+**Pré-condição:** Usuário logado com produto(s) no carrinho e dados de checkout preenchidos corretamente.
+
+### Passos:
+1. Adicionar produto(s) ao carrinho.
+2. Acessar o carrinho.
+3. Clicar em "Checkout".
+4. Preencher todos os campos obrigatórios.
+5. Clicar em "Continue".
+
+### Resultado Esperado:
+- Os produtos devem estar listados corretamente.
+- Os preços individuais devem corresponder aos valores exibidos na loja.
+- O subtotal deve ser a soma correta dos produtos.
+- O valor da taxa deve estar informado.
+- O total deve ser calculado corretamente (Subtotal + Tax).
+- Deve existir o botão "Finish".
+
+### Resultado Obtido:
+Os produtos foram exibidos corretamente.
+Os preços individuais corresponderam aos valores da loja.
+O subtotal foi calculado corretamente.
+O valor da taxa foi exibido.
+O total foi calculado corretamente.
+O botão "Finish" estava visível e funcional.
+
+### Status:
+Aprovado
+
+
