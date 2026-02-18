@@ -297,3 +297,28 @@ O botão "Finish" estava visível e funcional.
 Aprovado
 
 
+## CT-13 – Finalização da compra
+
+**ID:** CT-13  
+**Descrição:** Validar se o sistema finaliza a compra corretamente após confirmação.
+
+### Passos:
+1. Na página Overview, clicar no botão "Finish".
+
+### Resultado Esperado:
+- O sistema deve redirecionar para a página de confirmação.
+- Deve ser exibida mensagem de sucesso da compra.
+- Deve existir botão "Back Home".
+
+### Resultado Obtido:
+Mensagem exibida:
+"Thank you for your order!
+Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+
+O botão "Back Home" estava visível.
+Ao clicar em "Back Home", o sistema retornou à página inicial exibindo os produtos.
+
+### Status:
+Aprovado
+
+
