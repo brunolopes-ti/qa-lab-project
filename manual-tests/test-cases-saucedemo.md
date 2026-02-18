@@ -94,3 +94,25 @@ Aprovado
 Durante a execução inicial, o navegador realizou tradução automática das mensagens do sistema, alterando o texto exibido. 
 Os testes foram reexecutados com a tradução desativada para garantir fidelidade às mensagens originais da aplicação.  
 
+
+## CT-05 – Login com usuário bloqueado
+ 
+**ID:** CT-05  
+**Descrição:** Validar comportamento do sistema ao tentar login com usuário bloqueado.  
+**Pré-condição:** Usuário na página de login.
+
+### Passos:  
+1. Inserir usuário locked_out_user.
+2. Inserir senha válida (secret_sauce).
+3. Clicar em Login.
+
+### Resultado Esperado:  
+O sistema deve impedir o login e exibir mensagem informando que o usuário está bloqueado.
+
+### Resultado Obtido:  
+Mensagem exibida: "Epic sadface: Sorry, this user has been locked out."
+Usuário permaneceu na tela de login.
+
+### Status:  
+Aprovado
+
