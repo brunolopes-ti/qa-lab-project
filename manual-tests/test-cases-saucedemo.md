@@ -55,7 +55,7 @@ A palavra **"correspondem"** no **Resultado Obtido** foi alterada automaticament
 ## CT-03 - Login com usuário inválido
 
 **ID:** CT-03  
-**Descrição:** Validar comportamento do sistema oa inserir usuário inexistente.  
+**Descrição:** Validar comportamento do sistema ao inserir usuário inexistente.  
 **Pré-condição:** Usuário na página de login.  
 
 ### Passos:  
