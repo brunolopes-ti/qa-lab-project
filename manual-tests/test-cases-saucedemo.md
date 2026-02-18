@@ -41,15 +41,11 @@ Em ambiente limpo (aba anônima), o fluxo ocorreu normalmente.
 O sistema deve impedir o login e exibir mensagem informando ao usuário que as credenciais são inválidas.
 
 ### Resultado Obtido:  
-Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."  
+Mensagem exibida: "Epic sadface: Username and password do not match any user in this service."  
 Usuário permaneceu na tela de login.
 
 ### Status:  
 Aprovado
-
-### Observação: 
-
-A palavra **"correspondem"** no **Resultado Obtido** foi alterada automaticamente pelo sistema para **"exigem"**, resultando em uma frase gramaticalmente estranha. Apesar dessa alteração, a funcionalidade do sistema foi atendida corretamente.
 
 
 ## CT-03 - Login com usuário inválido
@@ -67,7 +63,7 @@ A palavra **"correspondem"** no **Resultado Obtido** foi alterada automaticament
 O sistema deve impedir o login e exibir mensagem informando que as credenciais são inválidas.  
 
 ### Resultado Obtido:  
-Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."  
+Mensagem exibida: "Epic sadface: Username and password do not match any user in this service."  
 Usuário permanceu na tela de login.  
 
 ### Status:  
@@ -88,7 +84,7 @@ Aprovado
 O sistema deve impedir o login e exibir mensagem solicitando o preenchimento dos campos obrigatórios.
 
 ### Resultado Obtido:  
-Mensagem exibida: "É necessário nome de usuário." e "É preciso uma senha."  
+Mensagem exibida: "Epic sadface: Username is required." e "Epic sadface: Password is required."  
 Usuário permaneceu na tela de login.  
 
 ### Status:  
