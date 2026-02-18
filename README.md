@@ -38,7 +38,7 @@ Os testes contemplam:
 
 ##  Estrutura do Projeto  
 
-qa-lab-project/
+qa-lab-project/  
 │
 ├── README.md  
 └── manual-tests/  
