@@ -240,3 +240,26 @@ Mensagem exibida: "Error: Last Name is required"
 
 ### Status:
 Aprovado
+
+
+## CT-11 – Validação de campo obrigatório (Postal Code)
+
+**ID:** CT-11  
+**Descrição:** Validar mensagem de erro ao tentar prosseguir no checkout sem preencher o campo Zip/Postal Code.  
+**Pré-condição:** Usuário na página de checkout.
+
+### Passos:
+1. Preencher First Name.
+2. Preencher Last Name.
+3. Deixar o campo Zip/Postal Code vazio.
+4. Clicar no botão "Continue".
+
+### Resultado Esperado:
+O sistema deve impedir o avanço e exibir mensagem informando que o campo Postal Code é obrigatório.
+
+### Resultado Obtido:
+Mensagem exibida: "Error: Postal Code is required"
+
+### Status:
+Aprovado
+
