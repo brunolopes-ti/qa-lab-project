@@ -90,3 +90,7 @@ Usuário permaneceu na tela de login.
 ### Status:  
 Aprovado
 
+### Observação de Ambiente:  
+Durante a execução inicial, o navegador realizou tradução automática das mensagens do sistema, alterando o texto exibido. 
+Os testes foram reexecutados com a tradução desativada para garantir fidelidade às mensagens originais da aplicação.  
+
