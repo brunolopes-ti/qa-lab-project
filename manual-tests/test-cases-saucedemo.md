@@ -50,3 +50,25 @@ Aprovado
 ### Observação: 
 
 A palavra **"correspondem"** no **Resultado Obtido** foi alterada automaticamente pelo sistema para **"exigem"**, resultando em uma frase gramaticalmente estranha. Apesar dessa alteração, a funcionalidade do sistema foi atendida corretamente.
+
+
+## CT-03 - Login com usuário inválido
+
+**ID:** CT-03  
+**Descrição:** Validar comportamento do sistema oa inserir usuário inexistente.  
+**Pré-condição:** Usuário na página de login.  
+
+### Passos:  
+1. Inserir usuário inválido.  
+2. Inserir senha válida.  
+3. Clicar em login.  
+
+### Resultado Esperado:  
+O sistema deve impedir o login e exibir mensagem informando que as credenciais são inválidas.  
+
+### Resultado Obtido:  
+Mensagem exibida: "O nome de usuário e a senha não correspondem a nenhum usuário neste serviço."  
+Usuário permanceu na tela de login.  
+
+### Status:  
+Aprovado
