@@ -218,3 +218,25 @@ Mensagem exibida: "Error: First Name is required"
 
 ### Status:
 Aprovado
+
+
+## CT-10 – Validação de campo obrigatório (Last Name)
+
+**ID:** CT-10  
+**Descrição:** Validar mensagem de erro ao tentar prosseguir no checkout sem preencher o campo Last Name.  
+**Pré-condição:** Usuário na página de checkout.
+
+### Passos:
+1. Preencher o campo First Name.
+2. Deixar o campo Last Name vazio.
+3. Preencher ou não os demais campos.
+4. Clicar no botão "Continue".
+
+### Resultado Esperado:
+O sistema deve impedir o avanço e exibir mensagem informando que o campo Last Name é obrigatório.
+
+### Resultado Obtido:
+Mensagem exibida: "Error: Last Name is required"
+
+### Status:
+Aprovado
