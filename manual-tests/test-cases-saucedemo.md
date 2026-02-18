@@ -116,3 +116,33 @@ Usuário permaneceu na tela de login.
 ### Status:  
 Aprovado
 
+
+## CT-06 – Adicionar produtos ao carrinho
+
+**ID:** CT-06  
+**Descrição:** Validar se o sistema permite adicionar um ou mais produtos ao carrinho e atualizar o contador corretamente.  
+**Pré-condição:** Usuário logado com credenciais válidas.
+
+### Passos:
+1. Realizar login com usuário válido.
+2. Clicar em "Add to cart" em um produto.
+3. Adicionar um segundo produto.
+4. Remover um dos produtos.
+
+### Resultado Esperado:
+- Ao adicionar um produto, o contador do carrinho deve exibir "1".
+- Ao adicionar mais produtos, o contador deve incrementar conforme a quantidade adicionada.
+- Ao remover um produto, o contador deve decrementar corretamente.
+
+### Resultado Obtido:
+Ao adicionar um produto, o contador exibiu "1".
+Ao adicionar múltiplos produtos, o contador foi incrementando corretamente.
+Ao remover produtos, o contador decrementou conforme esperado.
+
+### Status:
+Aprovado
+
+### Ambiente de Teste:  
+Execução realizada em aba anônima para evitar interferência de extensões ou tradução automática.  
+
+
