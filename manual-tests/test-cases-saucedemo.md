@@ -146,3 +146,28 @@ Aprovado
 Execução realizada em aba anônima para evitar interferência de extensões ou tradução automática.  
 
 
+## CT-07 – Validação dos produtos no carrinho
+
+**ID:** CT-07  
+**Descrição:** Validar se os produtos adicionados são exibidos corretamente na página do carrinho.  
+**Pré-condição:** Usuário logado com dois produtos adicionados ao carrinho.
+
+### Passos:
+1. Adicionar dois produtos ao carrinho.
+2. Clicar no ícone do carrinho.
+
+### Resultado Esperado:
+- Os dois produtos devem estar listados.
+- Nome e preço devem corresponder aos produtos selecionados.
+- Deve existir botão "Checkout".
+- Deve existir botão "Continue Shopping".
+
+### Resultado Obtido:
+Os dois produtos foram exibidos corretamente na página do carrinho.
+Os nomes e preços corresponderam aos produtos selecionados.
+Os botões "Checkout" e "Continue Shopping" estavam visíveis e funcionais.
+
+### Status:
+Aprovado
+
+
