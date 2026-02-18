@@ -171,3 +171,32 @@ Os botões "Checkout" e "Continue Shopping" estavam visíveis e funcionais.
 Aprovado
 
 
+## CT-08 – Acesso à página de Checkout
+
+**ID:** CT-08  
+**Descrição:** Validar navegação para a página de checkout após adicionar produto ao carrinho.  
+**Pré-condição:** Usuário logado com ao menos um produto no carrinho.
+
+### Passos:
+1. Adicionar produto ao carrinho.
+2. Clicar no ícone do carrinho.
+3. Clicar no botão "Checkout".
+
+### Resultado Esperado:
+- O sistema deve redirecionar para a página de checkout.
+- Devem existir os campos:
+  - First Name
+  - Last Name
+  - Zip/Postal Code
+- Devem existir os botões:
+  - "Cancel"
+  - "Continue"
+
+### Resultado Obtido:
+A navegação ocorreu corretamente.
+Os campos obrigatórios e botões foram exibidos conforme esperado.
+
+### Status:
+Aprovado
+
+
