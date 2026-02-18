@@ -200,3 +200,21 @@ Os campos obrigatórios e botões foram exibidos conforme esperado.
 Aprovado
 
 
+## CT-09 – Validação de campo obrigatório no Checkout
+
+**ID:** CT-09  
+**Descrição:** Validar mensagem de erro ao tentar prosseguir no checkout sem preencher campos obrigatórios.  
+**Pré-condição:** Usuário na página de checkout.
+
+### Passos:
+1. Deixar todos os campos vazios.
+2. Clicar no botão "Continue".
+
+### Resultado Esperado:
+O sistema deve impedir o avanço e exibir mensagem de erro informando campo obrigatório.
+
+### Resultado Obtido:
+Mensagem exibida: "Error: First Name is required"
+
+### Status:
+Aprovado
