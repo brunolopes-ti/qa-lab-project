@@ -72,3 +72,25 @@ Usuário permanceu na tela de login.
 
 ### Status:  
 Aprovado
+
+
+## CT-04 - Tentativa de login com campos em branco
+
+**ID:** CT-04  
+**Descrição:** Validar comportamento do sistema ao tentar realizar login sem preencher usuário e senha.  
+**Pré-condição:** Usuário na página de login.
+
+### Passos:  
+1. Deixar os campos de usuário e senha vazios.  
+2. Clicar em Login.  
+
+### Resultado Esperado:  
+O sistema deve impedir o login e exibir mensagem solicitando o preenchimento dos campos obrigatórios.
+
+### Resultado Obtido:  
+Mensagem exibida: "É necessário nome de usuário." e "É preciso uma senha."  
+Usuário permaneceu na tela de login.  
+
+### Status:  
+Aprovado
+
