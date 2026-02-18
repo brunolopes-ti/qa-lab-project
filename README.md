@@ -38,12 +38,16 @@ Os testes contemplam:
 
 ###  Estrutura do Projeto  
 
+```
 qa-lab-project/  
 │  
 ├── README.md  
-└── manual-tests/  
-└── test-cases-saucedemo.md  
+├── manual-tests/  
+├── api-tests/  
+├── sql-validation/  
+└── bug-reports/  
 
+``` 
 ---
 
 ###  Resumo de Execução
