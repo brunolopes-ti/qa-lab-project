@@ -39,15 +39,14 @@ Os testes contemplam:
 ###  Estrutura do Projeto  
 
 ```
-qa-lab-project/  
-│  
-├── README.md  
-├── manual-tests/  
-├── api-tests/  
-├── sql-validation/  
-└── bug-reports/  
-
-``` 
+qa-lab-project/
+│
+├── README.md
+├── manual-tests/
+├── api-tests/
+├── sql-validation/
+└── bug-reports/
+```
 ---
 
 ###  Resumo de Execução
