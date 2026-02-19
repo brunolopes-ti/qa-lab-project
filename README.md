@@ -41,11 +41,11 @@ Os testes contemplam:
 ```
 qa-lab-project/
 │
-├── README.md
-├── manual-tests/
 ├── api-tests/
+├── bug-reports/
+├── manual-tests/
 ├── sql-validation/
-└── bug-reports/
+└── README.md/
 ```
 ---
 
