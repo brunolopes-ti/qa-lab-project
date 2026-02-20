@@ -19,7 +19,7 @@ Os testes serão aplicados nos seguintes módulos da aplicação:
 
 - Validação de campos obrigatórios  
 
-- Usuário bloquado  
+- Usuário bloqueado  
 
 ### 2.2 Carrinho  
 
