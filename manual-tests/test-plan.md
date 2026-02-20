@@ -1,11 +1,11 @@
-### Plano de Teste – QA Lab (SauceDemo)
+## Plano de Teste – QA Lab (SauceDemo)
 
 
-## 1. Objetivo  
+### 1. Objetivo  
 
 Definir a estratégia, escopo e abordagem de testes aplicados à aplicação web SauceDemo, garantindo a validação do fluxo principal de autenticação e compra.
 
-2. Escopo  
+### 2. Escopo  
 
 Serão testadas as seguintes funcionalidades:  
 
@@ -25,7 +25,7 @@ Serão testadas as seguintes funcionalidades:
 
 - Finalização da compra  
 
-3. Fora de Escopo  
+### 3. Fora de Escopo  
 
 - Testes de performance  
 
@@ -35,7 +35,7 @@ Serão testadas as seguintes funcionalidades:
 
 - Integrações externas  
 
-4. Estratégia de Teste  
+### 4. Estratégia de Teste  
 
 Os testes serão executados manualmente, com foco em:
 
@@ -49,7 +49,7 @@ Os testes serão executados manualmente, com foco em:
 
 A execução seguirá casos de teste previamente documentados.  
 
-5. Tipos de Teste Aplicados
+### 5. Tipos de Teste Aplicados
 
 - Teste Funcional  
 
@@ -59,7 +59,7 @@ A execução seguirá casos de teste previamente documentados.
 
 - Teste de Regressão (básico)  
 
-6. Ambiente de Teste  
+### 6. Ambiente de Teste  
 
 - **Sistema Operacional:** Windows  
 
@@ -73,7 +73,7 @@ A execução seguirá casos de teste previamente documentados.
 
 - **Aplicação Testada:** SauceDemo  
 
-7. Critérios de Entrada
+### 7. Critérios de Entrada
 
 - Aplicação disponível  
 
@@ -81,7 +81,7 @@ A execução seguirá casos de teste previamente documentados.
 
 - Casos de teste documentados  
 
-8. Critérios de Saída  
+### 8. Critérios de Saída  
 
 - Todos os casos executados  
 
@@ -89,7 +89,7 @@ A execução seguirá casos de teste previamente documentados.
 
 - Defeitos registrados (quando aplicável)  
 
-9. Riscos  
+### 9. Riscos  
 
 - Ambiente público de demonstração pode não apresentar falhas reais  
 
