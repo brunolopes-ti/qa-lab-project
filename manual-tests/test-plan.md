@@ -1,7 +1,7 @@
 ### Plano de Teste – QA Lab (SauceDemo)
 
 
-1. Objetivo  
+## 1. Objetivo  
 
 Definir a estratégia, escopo e abordagem de testes aplicados à aplicação web SauceDemo, garantindo a validação do fluxo principal de autenticação e compra.
 
