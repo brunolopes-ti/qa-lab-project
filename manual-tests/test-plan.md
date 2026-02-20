@@ -7,21 +7,33 @@ Definir a estratégia, escopo e abordagem de testes aplicados à aplicação web
 
 ### 2. Escopo  
 
-Serão testadas as seguintes funcionalidades:  
+Os testes serão aplicados nos seguintes módulos da aplicação:  
 
-- Login (válido e inválido)  
+### 2.1 Autenticação
 
-- Validação de mensagens de erro  
+- Login com credenciais válidas  
 
-- Adição de produtos ao carrinho  
+- Login com senha inválida  
 
-- Validação do contador de itens  
-
-- Fluxo de checkout  
+- Login com usuário inválido  
 
 - Validação de campos obrigatórios  
 
-- Validação de cálculo de valores  
+- Usuário bloquado  
+
+### 2.2 Carrinho  
+
+- Adição de produtos  
+
+- Validação de contador de itens
+
+- Remoção de produtos
+
+### 2.3 Checkout  
+
+- Validação de campos obrigatórios  
+
+- Validação de cálculo (Subtotal, taxa, total)  
 
 - Finalização da compra  
 
@@ -94,3 +106,13 @@ A execução seguirá casos de teste previamente documentados.
 - Ambiente público de demonstração pode não apresentar falhas reais  
 
 - Limitação de acesso ao código-fonte  
+
+### 10. Métricas de Execução  
+
+- Total de Casos de Teste: 13  
+
+- Casos Aprovados: 13  
+
+- Casos Reprovados: 0  
+
+- Defeitos Encontrados: 0  
