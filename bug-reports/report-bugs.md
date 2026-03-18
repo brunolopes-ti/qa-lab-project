@@ -38,9 +38,58 @@ O sistema permite finalizar a compra sem itens no carrinho e exibe a mensagem: "
 
 ### Evidências 
 
-Print
+- Print
 
 ### Impacto 
 
 Permite criação de pedidos sem itens, comprometendo a integridade do sistema e podendo gerar inconsistências operacionais e financeiras.
+
+
+## Bug 02 - Falta de validação nos campos do formulário de checkout. 
+
+**ID:** BUG-002  
+**Severidade:** Alta  
+**Prioridade:** Alta  
+**Status:** Aberto  
+
+### Ambiente 
+
+ - Navegador: Google Chrome 122.0.0.0  
+ - Sistema Operacional: Windows 11  
+ 
+ ### Pré-condição  
+ 
+ - Usuário na etapa de checkout com carrinho contendo itens.  
+ 
+ ### Passos para reproduzir  
+
+ 1. Acessar página de Checkout   
+ 2. Preencher as informações: "First Name", "Last Name" e "Zip/Postal Code" com dados inválidos  
+ 3. Clicar em "Continue"  
+ 4. Clicar em "Finish"  
+ 
+ ### Cenários testados 
+
+ - Nome com números 
+ - Nome com caracteres especiais 
+ - CEP com letras 
+ - Campos combinados inválidos 
+ 
+ ### Resultado esperado 
+ 
+ Sistema deve impedir a finalização da compra e exibir mensagem de erro. 
+ 
+ ### Resultado obtido 
+ 
+ O sistema permite finalizar a compra com as informações de usuário inválidas e exibe a mensagem: "Thank you for your order! Your order has been dispatched, and will arrive just as fast as the pony can get there!" 
+ 
+ ### Evidências 
+ 
+ - Print 
+ 
+ ### Impacto 
+ 
+ Permite criação de pedidos com dados inválidos, comprometendo a integridade do sistema e podendo gerar inconsistências operacionais e financeiras.
+
+ 
 
