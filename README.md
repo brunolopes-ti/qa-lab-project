@@ -73,9 +73,9 @@ Durante a execução dos testes, foram identificados defeitos críticos que afet
 - BUG-001: Sistema permite finalizar compra com carrinho vazio   
 - BUG-002: Falta de validação nos campos do checkout  
 
-Os bugs detalhados estão documentados na pasta '\bug-reports'.
+Os bugs detalhados estão documentados na pasta '/bug-reports'.
 
-### Impacto 
+### Impacto de Negócio
 
 Os defeitos encontrados podem impactar diretamente:
 
