@@ -6,10 +6,10 @@ Este documento contém os bugs identificados durante a execução dos testes.
 
 ## Bug 01 - O sistema permite finalizar uma compra sem itens no carrinho. 
 
-**ID:** BUG-001 
-**Severidade:** Alta 
-**Prioridade:** Alta
-**Status:** Aberto
+**ID:** BUG-001  
+**Severidade:** Alta  
+**Prioridade:** Alta 
+**Status:** Aberto 
 
 ### Ambiente 
 
@@ -30,7 +30,7 @@ Este documento contém os bugs identificados durante a execução dos testes.
 
 ### Resultado esperado 
 
-Sistema deve impedir a finalização da compra sem itens no carrinho 
+Sistema deve impedir a finalização da compra com o carrinho vazio. 
 
 ### Resultado obtido 
 
