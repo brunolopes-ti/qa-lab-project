@@ -77,7 +77,7 @@ Permite criação de pedidos sem itens, comprometendo a integridade do sistema e
  
  ### Resultado esperado 
  
- Sistema deve impedir a finalização da compra e exibir mensagem de erro. 
+ Sistema deve validar os campos e exibir mensagens específicas indicando quais dados estão inválidos, impedindo o avanço no fluxo de checkout. 
  
  ### Resultado obtido 
  
@@ -91,5 +91,5 @@ Permite criação de pedidos sem itens, comprometendo a integridade do sistema e
  
  Permite criação de pedidos com dados inválidos, comprometendo a integridade do sistema e podendo gerar inconsistências operacionais e financeiras.
 
- 
+
 
