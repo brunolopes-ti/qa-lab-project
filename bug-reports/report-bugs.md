@@ -48,7 +48,7 @@ Permite criação de pedidos sem itens, comprometendo a integridade do sistema e
 ## Bug 02 - Falta de validação nos campos do formulário de checkout. 
 
 **ID:** BUG-002  
-**Severidade:** Alta  
+**Severidade:** Média  
 **Prioridade:** Alta  
 **Status:** Aberto  
 
