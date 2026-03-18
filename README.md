@@ -2,11 +2,7 @@
 
 ###  Objetivo
 
-Este projeto tem como objetivo aplicar e demonstrar conhecimentos em testes manuais de software, utilizando uma aplicação web de e-commerce como estudo de caso.
-
-Foi realizado o planejamento, elaboração e execução de casos de teste cobrindo o fluxo completo do usuário, desde autenticação até finalização de compra.
-
-O projeto simula um cenário real de validação funcional, com documentação estruturada e controle de versionamento.
+Este projeto tem como objetivo validar funcionalidades críticas de uma aplicação web, identificar falhas e garantir a qualidade do fluxo de compra sob a perspectiva do usuário final.
 
 ---
 
@@ -51,23 +47,42 @@ qa-lab-project/
 
 ###  Resumo de Execução
 
-|   ID   |               Cenário                |  Status  |
-|--------|--------------------------------------|----------|
-| CT-01  | Login válido                         | Aprovado |
-| CT-02  | Senha inválida                       | Aprovado |
-| CT-03  | Usuário inválido                     | Aprovado |
-| CT-04  | Campos obrigatórios no login         | Aprovado |
-| CT-05  | Usuário bloqueado                    | Aprovado |
-| CT-06  | Adição de produto ao carrinho        | Aprovado |
-| CT-07  | Validação de produtos no carrinho    | Aprovado |
-| CT-08  | Acesso ao checkout                   | Aprovado |
-| CT-09  | First Name obrigatório               | Aprovado |
-| CT-10  | Last Name obrigatório                | Aprovado |
-| CT-11  | Postal Code obrigatório              | Aprovado |
-| CT-12  | Validação da página Overview         | Aprovado |
-| CT-13  | Finalização da compra                | Aprovado |
-
+|   ID   |               Cenário                     |   Status   |
+|--------|-------------------------------------------|------------|
+| CT-01  | Login válido                              |  Aprovado  |
+| CT-02  | Senha inválida                            |  Aprovado  |
+| CT-03  | Usuário inválido                          |  Aprovado  |
+| CT-04  | Campos obrigatórios no login              |  Aprovado  |
+| CT-05  | Usuário bloqueado                         |  Aprovado  |
+| CT-06  | Adição de produto ao carrinho             |  Aprovado  |
+| CT-07  | Validação de produtos no carrinho         |  Aprovado  |
+| CT-08  | Acesso ao checkout                        |  Aprovado  |
+| CT-09  | First Name obrigatório                    |  Aprovado  |
+| CT-10  | Last Name obrigatório                     |  Aprovado  |
+| CT-11  | Postal Code obrigatório                   |  Aprovado  |
+| CT-12  | Validação da página Overview              |  Aprovado  |
+| CT-13  | Finalização da compra                     |  Aprovado  |
+| CT-14  | Finalizar compra com carrinho vazio       |  Reprovado |  
+| CT-15  | Validação de dados inválidos no checkout  |  Reprovado |
 ---
+
+### Bugs Encontrados
+
+Durante a execução dos testes, foram identificados defeitos críticos:  
+
+- BUG-001: Sistema permite finalizar compra com carrinho vazio   
+- BUG-002: Falta de validação nos campos do checkout   
+
+### Impacto 
+
+Os defeitos encontrados podem impactar diretamente:
+
+- Geração de pedidos inválidos   
+- Inconsistência em dados de clientes   
+- Problemas operacionais e financeiros   
+- Experiência negativa do usuário   
+
+Este tipo de análise reforça a importância da qualidade no ciclo de desenvolvimento.
 
 ###  Metodologia Utilizada
 
@@ -84,4 +99,5 @@ qa-lab-project/
 - Elaboração de Plano de Teste formal
 - Ampliação da cobertura para novos cenários
 - Implementação futura de automação de testes
+
 
