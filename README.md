@@ -68,10 +68,12 @@ qa-lab-project/
 
 ### Bugs Encontrados
 
-Durante a execução dos testes, foram identificados defeitos críticos:  
+Durante a execução dos testes, foram identificados defeitos críticos que afetam diretamente a integridade do sistema.  
 
 - BUG-001: Sistema permite finalizar compra com carrinho vazio   
-- BUG-002: Falta de validação nos campos do checkout   
+- BUG-002: Falta de validação nos campos do checkout  
+
+Os bugs detalhados estão documentados na pasta '\bug-reports'.
 
 ### Impacto 
 
