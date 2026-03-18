@@ -8,8 +8,8 @@ Este documento contém os bugs identificados durante a execução dos testes.
 
 **ID:** BUG-001  
 **Severidade:** Alta  
-**Prioridade:** Alta 
-**Status:** Aberto 
+**Prioridade:** Alta  
+**Status:** Aberto  
 
 ### Ambiente 
 
