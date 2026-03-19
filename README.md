@@ -96,10 +96,11 @@ Este tipo de análise reforça a importância da qualidade no ciclo de desenvolv
 
 ---
 
-###  Próximos Passos
+### Evolução do Projeto  
 
-- Elaboração de Plano de Teste formal
-- Ampliação da cobertura para novos cenários
-- Implementação futura de automação de testes
+Este projeto está em evolução contínua, com expansão para diferentes camadas de teste:  
 
-
+- Testes Manuais (**concluído**)  
+- Testes de API com Postman (**em andamento**)  
+- Validação de dados com SQL (**próximo passo**)  
+- Automação de testes (**Cypress ou Playwright**)  
