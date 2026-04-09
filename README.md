@@ -1,10 +1,19 @@
-## QA Lab – Testes Manuais em Aplicação Web (SauceDemo)
+## QA Lab – Testes Manuais e Validação de Bugs em Aplicação Web
 
 ###  Objetivo
 
 Este projeto tem como objetivo validar funcionalidades críticas de uma aplicação web, identificar falhas e garantir a qualidade do fluxo de compra sob a perspectiva do usuário final.
 
 ---
+
+### Métricas do Projeto  
+
+|   **Indicador**   | **Valor** |  
+|-------------------|-----------|  
+| Casos de Teste    |     15    |  
+| Bugs Encontrados  |     2     |  
+| Taxa de Aprovação |   86,6%   |  
+| Maior Severidade Identificada  |    Alta   |  
 
 ###  Escopo dos Testes
 
@@ -43,9 +52,9 @@ qa-lab-project/
 ```
 ---
 
-###  Resumo de Execução
+###  Matriz de Execução de Testes
 
-|   ID   |               Cenário                     |   Status   |
+| **ID** |              **Cenário**                  | **Status** |
 |--------|-------------------------------------------|------------|
 | CT-01  | Login válido                              |  Aprovado  |
 | CT-02  | Senha inválida                            |  Aprovado  |
@@ -66,10 +75,10 @@ qa-lab-project/
 
 ### Bugs Encontrados
 
-Durante a execução dos testes, foram identificados defeitos críticos que afetam diretamente a integridade do sistema.  
+Durante a execução dos testes, foram identificados defeitos de alta prioridade.  
 
-- BUG-001: Sistema permite finalizar compra com carrinho vazio   
-- BUG-002: Falta de validação nos campos do checkout  
+- [BUG-001: Sistema permite finalizar compra com carrinho vazio](./bug-reports.md)  
+- [BUG-002: Falta de validação nos campos do checkout](./bug-reports.md)  
 
 Os bugs detalhados estão documentados na pasta '/bug-reports'.
 
