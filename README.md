@@ -77,8 +77,8 @@ qa-lab-project/
 
 Durante a execução dos testes, foram identificados defeitos de alta prioridade.  
 
-- [BUG-001: Sistema permite finalizar compra com carrinho vazio](./bug-reports/report-bugs.md)  
-- [BUG-002: Falta de validação nos campos do checkout](./bug-reports/report-bugs.md)  
+- [BUG-001: Sistema permite finalizar compra com carrinho vazio](./2.bug-reports/report-bugs.md)  
+- [BUG-002: Falta de validação nos campos do checkout](./2.bug-reports/report-bugs.md)  
 
 Os bugs detalhados estão documentados na pasta '/bug-reports'.
 
