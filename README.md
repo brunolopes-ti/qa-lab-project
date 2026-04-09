@@ -95,12 +95,3 @@ Este tipo de análise reforça a importância da qualidade no ciclo de desenvolv
 - Organização dos cenários por fluxo funcional.
 
 ---
-
-### Evolução do Projeto  
-
-Este projeto está em evolução contínua, com expansão para diferentes camadas de teste:  
-
-- Testes Manuais (**concluído**)  
-- Testes de API com Postman (**em andamento**)  
-- Validação de dados com SQL (**próximo passo**)  
-- Automação de testes (**Cypress ou Playwright**)  
