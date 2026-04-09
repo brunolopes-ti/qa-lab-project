@@ -37,10 +37,8 @@ Os testes contemplam:
 ```
 qa-lab-project/
 │
-├── api-tests/
-├── bug-reports/
 ├── manual-tests/
-├── sql-validation/
+├── bug-reports/
 └── README.md/
 ```
 ---
