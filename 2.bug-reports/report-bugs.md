@@ -272,16 +272,13 @@ O defeito **D-1 do Qase** identifica especificamente a falha de adição do Flee
 
 ## Resumo dos registros atuais
 
-| ID documental | Comportamento | Caso manual | Defeito no Qase | Severidade registrada | Status |
+| ID | Comportamento | Caso manual | Registro no Qase | Severidade | Status |
 | --- | --- | --- | --- | --- | --- |
-| BUG-001 | Compra concluída com carrinho vazio | CT-14 | Não informado neste relatório | Alta | Aberto na documentação |
-| BUG-002 | Fleece Jacket não adicionado com error_user | CT-15 | D-1 | Major | Open no Qase |
+| BUG-001 | Compra concluída com carrinho vazio | CT-14 | Não registrado | Alta | Aberto |
+| BUG-002 | Fleece Jacket não adicionado com `error_user` | CT-15 | D-1 | Major (Qase) | Aberto |
 
-Ambos os comportamentos foram reproduzidos em 16/09/2026 e possuem evidências visuais vinculadas neste relatório.
-
-O BUG-001 é avaliado conforme uma regra de negócio adotada para o exercício. O BUG-002 possui acompanhamento no Qase pelo defeito D-1.
-
-O relato antigo de checkout não foi contabilizado como um terceiro defeito confirmado.
+> O BUG-001 é acompanhado apenas na documentação manual do projeto.  
+> O BUG-002 também possui acompanhamento no Qase por meio do defeito D-1.
 
 ---
 
