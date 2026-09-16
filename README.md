@@ -103,7 +103,10 @@ Aplicação:
 ```text
 qa-lab-project/
 ├── 1.manual-tests/
+│   ├── 01-test-plan.md
+│   └── 02-test-cases-saucedemo.md
 ├── 2.bug-reports/
+│   └── report-bugs.md
 ├── 3.evidencias/
 │   └── qase/
 │       ├── qase-suite-autenticacao.png
@@ -134,7 +137,7 @@ qa-lab-project/
 | CT-12 | Validação da página Overview | Aprovado |
 | CT-13 | Finalização da compra | Aprovado |
 | CT-14 | Finalizar compra com carrinho vazio | Reprovado |
-| CT-15 | Validação de dados inválidos no checkout | Reprovado |
+| CT-15 | Adição de produto ao carrinho com `error_user` | Reprovado |
 
 ---
 
@@ -146,11 +149,19 @@ Durante a execução dos cenários foram identificados e documentados dois defei
 
 O sistema permite avançar pelo processo de checkout e concluir uma compra mesmo sem produtos adicionados ao carrinho.
 
+O comportamento está relacionado ao **CT-14 – Finalização da compra com carrinho vazio**.
+
+> Como a SauceDemo é uma aplicação pública de demonstração e não há acesso aos requisitos oficiais do produto, o comportamento esperado deste cenário foi definido como regra de negócio adotada para fins do exercício prático.
+
 [Consultar documentação do BUG-001](./2.bug-reports/report-bugs.md)
 
-### BUG-002 – Falta de validação nos campos do checkout
+### BUG-002 – Produto Sauce Labs Fleece Jacket não é adicionado ao carrinho com error_user
 
-O sistema aceita determinados dados inválidos durante o preenchimento das informações do checkout.
+Ao utilizar o usuário `error_user`, o produto **Sauce Labs Fleece Jacket** não é adicionado ao carrinho após clicar em "Add to cart".
+
+O contador do carrinho não é atualizado e o botão permanece como "Add to cart".
+
+O comportamento foi reproduzido, registrado no Qase e validado novamente em reteste.
 
 [Consultar documentação do BUG-002](./2.bug-reports/report-bugs.md)
 
@@ -158,16 +169,15 @@ O sistema aceita determinados dados inválidos durante o preenchimento das infor
 
 ## Impacto de negócio
 
-Os defeitos encontrados podem gerar impactos como:
+Os defeitos identificados afetam funcionalidades importantes do fluxo de compra:
 
-- Pedidos inválidos;
-- Inconsistência em dados de clientes;
-- Problemas operacionais;
-- Problemas financeiros;
-- Falhas no fluxo de compra;
-- Experiência negativa para o usuário.
+- possibilidade de conclusão de pedidos sem produtos;
+- falha na adição de produto ao carrinho;
+- inconsistência no fluxo de compra;
+- risco de registros inválidos;
+- impacto direto na experiência do usuário.
 
-A análise dos cenários reforça a importância da validação funcional antes da disponibilização de uma funcionalidade em produção.
+A análise dos cenários reforça a importância da validação funcional, reprodução de falhas e rastreabilidade dos defeitos durante o processo de testes.
 
 ---
 
@@ -287,7 +297,7 @@ Para demonstrar o fluxo completo de tratamento de defeitos, foi criado um cenár
 error_user
 ```
 
-Caso utilizado:
+Caso utilizado no ciclo do Qase:
 
 ```text
 CT-07 - Adicionar produto ao carrinho com error_user
@@ -298,6 +308,8 @@ Produto utilizado:
 ```text
 Sauce Labs Fleece Jacket
 ```
+
+> Este cenário também está documentado na matriz geral de testes manuais como **CT-15**. A numeração CT-07 corresponde exclusivamente ao ciclo criado dentro do Qase.
 
 ---
 
@@ -326,6 +338,8 @@ Ao clicar no botão Add to cart do produto Sauce Labs Fleece Jacket,
 o produto não é adicionado ao carrinho e o botão não é alterado para Remove.
 ```
 
+O contador do carrinho também não é atualizado.
+
 Nenhuma mensagem de erro é exibida pela aplicação.
 
 O caso foi marcado como:
@@ -350,12 +364,17 @@ Classificação utilizada:
 |---|---|
 | Severidade | Major |
 | Status | Open |
-| Caso relacionado | CT-07 |
+| Caso relacionado no Qase | CT-07 |
+| Caso relacionado na matriz manual | CT-15 |
 | Execução relacionada | Failed |
 
 O defeito foi vinculado ao caso de teste e à execução que originou a falha, mantendo a rastreabilidade do ciclo.
 
-### Evidência
+### Evidência da execução com falha
+
+![Execução com falha no Qase](./3.evidencias/qase/qase-execucao-defeito-failed.png)
+
+### Evidência do defeito
 
 ![Defeito registrado no Qase](./3.evidencias/qase/qase-defeito-registrado.png)
 
@@ -363,7 +382,7 @@ O defeito foi vinculado ao caso de teste e à execução que originou a falha, m
 
 # Reteste
 
-Após o registro do defeito foi realizada uma nova execução do CT-07 utilizando a funcionalidade de reteste do Qase.
+Após o registro do defeito foi realizada uma nova execução do cenário utilizando a funcionalidade de reteste do Qase.
 
 O mesmo cenário foi executado novamente com os mesmos dados e pré-condições.
 
@@ -377,7 +396,8 @@ Resultado documentado:
 Defeito reproduzido novamente no reteste.
 
 Ao clicar em Add to cart no produto Sauce Labs Fleece Jacket,
-o produto continua não sendo adicionado ao carrinho
+o produto continua não sendo adicionado ao carrinho,
+o contador não é atualizado
 e o botão não é alterado para Remove.
 ```
 
@@ -458,7 +478,7 @@ Entre elas estão registros de:
 - Registro do defeito;
 - Severidade Major;
 - Status Open;
-- Relacionamento com o CT-07;
+- Relacionamento entre caso, execução e defeito;
 - Reteste;
 - Nova reprodução da falha.
 
