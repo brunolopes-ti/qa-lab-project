@@ -109,10 +109,12 @@ A execução seguirá casos de teste previamente documentados.
 
 ### 10. Métricas de Execução  
 
-- Total de Casos de Teste: 13  
+- Total de Casos de Teste: 15 
 
 - Casos Aprovados: 13  
 
-- Casos Reprovados: 0  
+- Casos Reprovados: 2   
 
-- Defeitos Encontrados: 0  
+- Defeitos Encontrados: 2
+
+- Taxa de Aprovação: 86,6%
