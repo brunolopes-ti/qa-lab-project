@@ -73,9 +73,13 @@ A execução seguirá casos de teste previamente documentados.
 
 ### 6. Ambiente de Teste  
 
-- **Sistema Operacional:** Windows  
+- **Sistema Operacional:** Windows 
 
-- **Navegador:** Google Chrome (modo anônimo)  
+- **Navegador:** Google Chrome
+
+- **Modo inicialmente adotado:** janela anônima
+
+- **Execuções complementares:** também realizadas em janela normal, conforme documentação dos casos  
 
 - **Editor:** Visual Studio Code  
 
@@ -117,4 +121,4 @@ A execução seguirá casos de teste previamente documentados.
 
 - Defeitos Encontrados: 2
 
-- Taxa de Aprovação: 86,6%
+- Taxa de Aprovação: 86,7%

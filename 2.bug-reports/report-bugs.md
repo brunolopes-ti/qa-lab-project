@@ -324,8 +324,3 @@ Para o defeito D-1, foram documentadas as seguintes etapas:
 O acompanhamento termina com o defeito ainda aberto. Não houve validação de correção nem encerramento do D-1.
 
 ---
-
-## Pendências documentais
-
-- Revisar o relato histórico de checkout que utilizava o identificador BUG-002;
-- Registrar as versões do navegador e do sistema operacional nas próximas execuções.
