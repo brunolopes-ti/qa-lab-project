@@ -101,6 +101,7 @@ Aplicação: [SauceDemo](https://www.saucedemo.com/).
 | `1.manual-tests/02-test-cases-saucedemo.md` | Casos e resultados dos testes manuais |
 | `2.bug-reports/report-bugs.md` | Relatório de defeitos |
 | `3.evidencias/qase/` | Evidências históricas e da execução R-3 |
+| `3.evidencias/checkout/` | Evidências da reprodução do BUG-001 no checkout vazio |
 | `README.md` | Visão geral, resultados e rastreabilidade do projeto |
 
 ### Matriz de execução dos testes manuais
@@ -372,7 +373,7 @@ O cenário original foi preservado no clone **SAUCE-7**, identificado como CT-05
 
 | Cenário | Identificação atual no Qase | Correspondência na matriz manual |
 | --- | --- | --- |
-| Adicionar produto com `standard_user` | SAUCE-7 / CT-05 | CT-06 |
+| Adicionar produto com `standard_user` | SAUCE-7 / CT-05 | CT-06 — cobertura parcial na R-3 |
 | Adicionar Fleece Jacket com `error_user` | SAUCE-5 / CT-07 | CT-15 |
 
 O histórico do defeito D-1 mantém os resultados anteriores da **R-2** e o resultado **Failed da R-3**.
